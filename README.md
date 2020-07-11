@@ -1,6 +1,6 @@
 # Project 1 for Full Stack Boot Camp 7/11/2020
 
-## Recque Recipe Application
+## REÇQUE Recipe Application
 
 ## Written by
 
