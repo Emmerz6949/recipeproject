@@ -1,0 +1,188 @@
+
+ /** this page represents all the style on the site. **/
+
+
+html{background:#17e9e0;}
+
+p{
+	color: white;
+	font-size: 1.2em;
+	margin-top: .2em;
+	padding-bottom: 3em;
+}
+
+h3{
+	color: white;
+}
+
+.resultsh3{
+	color: purple;
+}
+
+h4{
+	color: white;
+}
+
+h5{
+	color: white;
+}
+
+.divider{
+    position:absolute;
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
+}
+
+.vl {
+	border-left: 2px solid #ba68c8;
+	height: 20em;
+	position: absolute;
+	left: 37%;
+	margin-left: -1em;
+	top: 11em;
+  }
+
+  .vl.landing {
+	border-left: 2px solid #ba68c8;
+	height: 20em;
+	position: absolute;
+	left: 42%;
+	margin-left: -1em;
+	top: 11em;
+  }
+
+  .btn{ 
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+  }
+
+.Logocontainer {
+	margin-top: 10em;
+	margin-left: 5em;
+	margin-right: 5em;
+  }
+
+
+  .Mycontainer {
+	margin-top: 15em;
+	margin-left: 5em;
+  }
+
+  .Landingcontainer {
+	margin-top: 15em;
+	margin-left: 6.5em;
+	margin-right: 6.5em;
+
+
+  }
+
+  .Iconcontainer {
+	  margin-top: 9.5em;	
+	  margin-left: 5em;
+	  margin-right: 5em;
+}
+
+.Iconcontainer2 {
+	margin-top: 9.5em;	
+	margin-left: 5em;
+	margin-right: 5em;
+}
+ 
+
+.collection {
+	background: #17e9e0;	
+	color: white;
+}
+
+
+
+ /** this section represents the styling of the site at different view ports  **/
+
+
+
+	@media screen and (max-width:800px){
+		.Mycontainer {
+		margin-top: 4em;
+		margin-left: 2em;
+		margin-right: 2em;
+		}
+
+	@media screen and (max-width:600px){
+		.Mycontainer {
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em;
+		}
+	
+
+
+	@media screen and (max-width:800px){
+		.Iconcontainer {
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em;
+		}
+
+	@media screen and (max-width:600px){
+		.Iconcontainer {
+		margin-top: 2em;
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+
+
+	@media screen and (max-width:800px){
+		.Iconcontainer2 {
+		margin-top: 4em;
+		margin-left: 1em;
+		margin-right: 1em;
+		}
+
+	@media screen and (max-width:600px){
+		.Iconcontainer2 {
+		margin-top: 2em;
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+
+	@media screen and (max-width:800px){
+		.Landingcontainer {
+			margin-top: 2em;
+			margin-left: 1.5em;
+		  }
+
+	@media screen and (max-width:600px){
+		.Landingcontainer {
+			margin-top: 2em;
+			margin-left: 1.5em;
+			margin-right: 1.5em;
+		}
+
+	@media screen and (max-width:600px){
+		.Logocontainer {
+			margin-top: 2em;
+			margin-left: 5em;
+			margin-right: 5em;
+		  }
+
+	@media screen and (max-width:800px){
+			.Logocontainer {
+				margin-top: 2em;
+				margin-left: 2em;
+				margin-right: 2em;
+			}
+
+
+
+
+}
+		}
+	
+	
+
+	}}}}}}}}
+	

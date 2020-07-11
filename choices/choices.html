@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Importing Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--linking to the reset.css-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!--Importing materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--linking to style.css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Lets browser know website is optimized for mobile-->
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--title as it appears in the the tab-->
+    <title>REÇQUE</title>
+  </head>
+  <body>
+    <!--this represents the left side of the screen and also shows this section's grid layout for different screen sizes-->
+    <div class="row">
+      <div class="col m4 s12">
+        <div class="Mycontainer" >
+          <h3>What type of food would you like to eat? </h3>
+        </div>
+      </div> 
+      
+      <!--this represents the right side of the screen with the clickable icons and also shows this section's grid layout for different screen sizes. In this section we also have the set up onclick events and id's for our functionality-->
+      <div class="col m8 s12">
+        <div class="Iconcontainer2">
+          <div class="vl hide-on-small-only"> </div>
+          <div class="row">
+            <div value="breakfast" class="col l3 m4 s4 notClicked icon"><center><img id="breakfastIcon" class="responsive-img" src="../assets/white icons/Breakfast.png" style="width:58px; height:58px;"><p><strong>Breakfast</strong></p></center></div>
+            <div value="lunch" class="col l3 m4 s4 notClicked icon"><center><img id="lunchIcon" class="responsive-img" src="../assets/white icons/lunch.png" style="width:58px; height:58px;"><p><strong>Lunch</strong></p></center></div>
+            <div value="dinner" class="col l3 m4 s4 notClicked icon"><center><img id="dinnerIcon" class="responsive-img" src="../assets/white icons/dinner.png" style="width:58px; height:58px;"><p><strong>Dinner</strong></p></center></div>
+            <div value="chicken" class="col l3 m4 s4 notClicked icon"><center><img id="chickenIcon" class="responsive-img" src="../assets/white icons/chicken.png" style="width:58px; height:58px;"><p><strong>Chicken</strong></p></center></div>
+
+          
+            <div value="beef" class="col l3 m4 s4 notClicked icon"><center><img id="beefIcon" class="responsive-img" src="../assets/white icons/beef.png" style="width:58px; height:58px;"><p><strong>Beef</strong></p></center></div>
+            <div value="pork" class="col l3 m4 s4 notClicked icon"><center><img id="porkIcon" class="responsive-img" src="../assets/white icons/pork.png" style="width:58px; height:58px;"><p><strong>Pork</strong></p></center></div>
+            <div value="fish" class="col l3 m4 s4 notClicked icon"><center><img id="fishIcon" class="responsive-img" src="../assets/white icons/fish.png" style="width:58px; height:58px;"><p><strong>Fish</strong></p></center></div>
+            <div value="tofu" class="col l3 m4 s4 notClicked icon"><center><img id="tofuIcon" class="responsive-img" src="../assets/white icons/tofu.png" style="width:58px; height:58px;"><p><strong>Tofu</strong></p></center></div>
+
+          
+            <div value="american" class="col l3 m4 s4 notClicked icon"><center><img id="americanIcon" class="responsive-img" src="../assets/white icons/american.png" style="width:58px; height:58px;"><p><strong>American</strong></p></center></div>
+            <div value="caribbean" class="col l3 m4 s4 notClicked icon"><center><img id="caribbeanIcon" class="responsive-img" src="../assets/white icons/caribbean.png" style="width:58px; height:58px;"><p><strong>Caribbean</strong></p></center></div>
+            <div value="indian" class="col l3 m4 s4 notClicked icon"><center><img id="indianIcon"class="responsive-img" src="../assets/white icons/indian.png" style="width:58px; height:58px;"><p><strong>Indian</strong></p></center></div>
+            <div value="asian" class="col l3 m4 s4 notClicked icon"><center><img id="asianIcon" class="responsive-img" src="../assets/white icons/asian.png" style="width:58px; height:58px;"><p><strong>Asian</strong></p></center></div>
+           
+
+            <div value="mexican" class="col l3 m4 s4 notClicked icon"><center><img id="mexicanIcon" class="responsive-img" src="../assets/white icons/mexican.png" style="width:58px; height:58px;"><p><strong>Mexican</strong></p></center></div>
+            <div value="nordic" class="col l3 m4 s4 notClicked icon"><center><img id="nordicIcon" class="responsive-img" src="../assets/white icons/nordic.png" style="width:58px; height:58px;"><p><strong>Nordic</strong></p></center></div>
+            <div value="middle-eastern" class="col l3 m4 s4 notClicked icon"><center><img id="middle-easternIcon" class="responsive-img" src="../assets/white icons/middle-eastern.png" style="width:58px; height:58px;"><p><strong>Middle Eastern</strong></p></center></div>
+            <div value="mediterranean" class="col l3 m12 s12 notClicked icon"><center><img  id="mediterraneanIcon" class="responsive-img" src="../assets/white icons/mediterranean.png" style="width:58px; height:58px;"><p><strong>Mediterranean</strong></p></center></div>
+          </div>
+          
+          <!--this represents the buttons on the bottom of the screen and also shows this section's grid layout for different screen sizes-->
+          <div class="row">
+            <center>
+              <div id="error"></div>
+              <a href="../allergies/allergies.html" class="waves-effect waves-light btn  purple lighten-2"><i class="material-icons left">arrow_back</i>Back</a>
+              <a id="applyChoices" class="waves-effect waves-light btn purple darken-3"><i class="material-icons right">arrow_forward</i>APPLY</a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./choices.js"></script>
+  </body>
+</html>
