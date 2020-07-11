@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Importing Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--linking to the reset.css-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!--Importing materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--linking to style.css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Lets browser know website is optimized for mobile-->
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--title as it appears in the the tab-->
+    <title>REÇQUE</title>
+  </head>
+  <body>
+    <!--this represents the left side of the screen the header and the joke. it also shows this section's 
+      grid layout for different screen sizes-->
+    <div class="row">
+      <div class="col m4 s12">
+        <div class="Mycontainer">
+          <h3>Enjoy your recipes. Now get cook'n!</h3>
+          <div id="joke">  </div>
+        </div>
+      </div>
+      
+      <!--this represents the right side displaying the resipe result cards. it also shows this section's 
+        grid layout for different screen sizes. A lot of the javascript functionality is linked to 
+        this page and is called in through our id tags-->
+      <div class="col m8 s12">
+        <div class="Iconcontainer">
+          <div class="vl hide-on-small-only"> </div>
+
+          <div class="row">
+            <!--first result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg0" src="">
+                  <span id="resultTitle0"  class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent0"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink0" href="#"> </a>
+                </div>
+              </div>
+            </div>
+
+            <!--second result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg1" src="">
+                  <span id="resultTitle1"  class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent1"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink1" href="#"> </a>
+                </div>
+              </div>
+            </div>
+
+            <!--third result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg2"  src="">
+                  <span id="resultTitle2" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent2"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink2" href="#"> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!--fourth result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg3" src="">
+                  <span id="resultTitle3" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent3"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink3" href="#"> </a>
+                </div>
+              </div>
+            </div>
+
+            <!--fifth result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg4"  src="">
+                  <span id="resultTitle4" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent4"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink4" href="#"> </a>
+                </div>
+              </div>
+            </div>
+
+            <!--sixth result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg5"  src="">
+                  <span id="resultTitle5" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent5"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink5" href="#"> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!--seventh result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg6" src="">
+                  <span id="resultTitle6" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent6"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink6" href="#"> </a>
+                </div>
+              </div>
+            </div>
+
+            <!--eighth result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg7"  src="">
+                  <span id="resultTitle7" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent7"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink7" href="#"> </a>
+                </div>
+              </div>
+            </div>
+
+            <!--ninth result-->
+            <div class="col s4 m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg8"  src="">
+                  <span id="resultTitle8" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent8"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink8" href="#"> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!--tenth result-->
+            <div class="col s4 offset-s4 m4 offset-m4">
+              <div class="card purple">
+                <div class="card-image">
+                  <img id="resultImg9"  src="">
+                  <span id="resultTitle9" class="card-title"> </span>
+                </div>
+                <div class="card-content">
+                  <p id="resultContent9"> </p>
+                </div>
+                <div class="card-action">
+                  <a id="resultLink9" href="#"> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--this represents the button on the bottom of the screen and where the button links to-->
+          <div class="row">
+            <center>
+              <a href="../index.html"  class="waves-effect waves-light btn purple darken-3"><i class="material-icons right">cached</i>START OVER</a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./results.js"></script>
+  </body>
+</html>
