@@ -19,6 +19,7 @@ Javascript
 
 jQuery
 
+CSS
 
 ## Project Description
 Allows users to search for recipie based on allergy or dietary restriction.
