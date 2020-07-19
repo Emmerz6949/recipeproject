@@ -24,6 +24,8 @@ CSS
 ## Project Description
 Allows users to search for recipie based on allergy or dietary restriction.
 
+![image](https://i.ibb.co/Ybr8wFP/RE-QUE.png)
+
 ## User Story
 AS a person with dietary restrictions
 
